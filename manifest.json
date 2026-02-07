@@ -376,7 +376,7 @@
       "sourceUrl": "https://secureannex.com/blog/these-vibes-are-off/",
       "discoveryDate": "2025-11-01",
       "capabilities": ["rat", "remote-access"],
-      "localPath": "secureannex/solidityai.solidity-1.0.9.vsix",
+      "localPath": "thesevibesareoff/solidityai.solidity-1.0.9.vsix",
       "notes": "ScreenConnect RAT delivery via fake Solidity extension. Part of SecureAnnex 'These Vibes Are Off' report."
     },
     {
@@ -392,7 +392,7 @@
       "sourceUrl": "https://bazaar.abuse.ch/sample/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b/",
       "discoveryDate": "2025-10-01",
       "capabilities": ["rat", "remote-access", "persistence"],
-      "localPath": "secureannex/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi",
+      "localPath": "snowshono/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi",
       "notes": "ScreenConnect MSI installer payload delivered by SnowShoNo PowerShell downloader. 13MB MSI."
     }
   ],
@@ -505,7 +505,7 @@
       "sha256": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b",
       "filename": "ScreenConnect.ClientSetup.msi",
       "campaign": "SnowShoNo",
-      "localPath": "secureannex/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi"
+      "localPath": "snowshono/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi"
     }
   ]
 }
