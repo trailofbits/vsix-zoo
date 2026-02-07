@@ -23,6 +23,7 @@ Malware sample collection for [vsix-audit](https://github.com/trailofbits/vsix-a
 | `malwarebazaar/` | GlassWorm artifacts from MalwareBazaar | loader, native-code-execution |
 | `nextsecurity/` | Malicious CSS/LESS stylesheets | data exfiltration via CSS |
 | `nf3xn/` | Educational malicious extension | basic malicious extension |
+| `secureannex/` | ScreenConnect RAT samples from SecureAnnex reports | rat, remote-access, persistence |
 | `securezeron/` | Reverse shell PoC | reverse-shell, RCE |
 | `snyk-labs/` | VS Code extension exploit demo | credential-theft via webview |
 
