@@ -44,6 +44,7 @@ For sensitive submissions, contact the maintainers directly.
 ### Adding a Sample
 
 1. Place the file in `samples/{campaign}/`
+   - Name the directory after the **campaign or threat actor** (e.g., `glassworm/`, `snowshono/`), not the research source that reported it.
 2. Add an entry to `manifest.json`:
 
 ```json
