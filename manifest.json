@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-07",
+  "lastUpdated": "2026-05-22",
   "samples": [
     {
       "id": "snowshono-powershell-downloader",
@@ -218,6 +218,25 @@
       "capabilities": ["trojan", "fake-image"],
       "localPath": "malwarebazaar/priskinski.theme-allhallowseve-remake-1.0.0.vsix",
       "notes": "Trojan-laden theme. banner.png contains Rust binary payload. Part of ReversingLabs Dec 2025 disclosure."
+    },
+    {
+      "id": "nrwl-angular-console-compromised",
+      "name": "Nx Console",
+      "publisher": "nrwl",
+      "version": "18.95.0",
+      "platform": "vscode",
+      "campaign": "TeamPCP",
+      "malwareFamily": "Supply-Chain",
+      "sha256": "1a4afce34918bdc74ae3f31edaffffaa0ee074d83618f53edfd88137927340b8",
+      "source": "malwarebazaar",
+      "sourceUrl": "https://bazaar.abuse.ch/sample/1a4afce34918bdc74ae3f31edaffffaa0ee074d83618f53edfd88137927340b8/",
+      "discoveryDate": "2026-05-18",
+      "capabilities": ["credential-theft", "downloader", "hidden-task"],
+      "localPath": "teampcp/nrwl.angular-console-18.95.0.vsix",
+      "notes": "Compromised Nx Console release tied to the TeamPCP/GitHub incident. Injected main.js launches hidden task 'install-mcp-extension' to run github:nrwl/nx#558b09d7ad0d1660e2a0fb8a06da81a6f42e06d2.",
+      "relatedHashes": {
+        "main.js": "b0cefb66b953e5184b6adb3035e9e267335ac5eabfe1848e07834777b9397b74"
+      }
     },
     {
       "id": "tigerjack-cpp-playground",

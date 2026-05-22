@@ -20,12 +20,13 @@ Malware sample collection for [vsix-audit](https://github.com/trailofbits/vsix-a
 | `glassworm/` | Supply chain malware (Rust implants) | credential-theft, crypto-wallet, VNC |
 | `kagema/` | SnowShoNo downloader | obfuscation, powershell-execution |
 | `kirill89/` | Workspace trust exploit demos | code execution via tasks/extensions |
-| `malwarebazaar/` | GlassWorm artifacts from MalwareBazaar | loader, native-code-execution |
+| `malwarebazaar/` | MalwareBazaar-sourced artifacts | loader, native-code-execution |
 | `nextsecurity/` | Malicious CSS/LESS stylesheets | data exfiltration via CSS |
 | `nf3xn/` | Educational malicious extension | basic malicious extension |
 | `securezeron/` | Reverse shell PoC | reverse-shell, RCE |
 | `snowshono/` | ScreenConnect MSI payload (SnowShoNo campaign) | rat, remote-access, persistence |
 | `snyk-labs/` | VS Code extension exploit demo | credential-theft via webview |
+| `teampcp/` | Compromised Nx Console extension | credential-theft, hidden-task |
 | `thesevibesareoff/` | ScreenConnect RAT via fake Solidity extension | rat, remote-access |
 
 See `manifest.json` for full metadata including hashes, sources, and campaign attribution.
@@ -45,4 +46,3 @@ VSIX_ZOO_PATH=../vsix-zoo/samples npm test
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit samples.
-
