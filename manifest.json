@@ -413,6 +413,22 @@
       "capabilities": ["rat", "remote-access", "persistence"],
       "localPath": "snowshono/snowshono-msi/290027e4e32cf4983ccaa9811b3090c7397a3711d23e426ab144bec1167c456b.msi",
       "notes": "ScreenConnect MSI installer payload delivered by SnowShoNo PowerShell downloader. 13MB MSI."
+    },
+    {
+      "id": "finlay-ab.vscode-latex-runner.vsix",
+      "name": "LaTeX Instant Runner",
+      "publisher": "Finlay AB",
+      "version": "0.0.9",
+      "platform": "windows",
+      "campaign": "GlassWorm",
+      "malwareFamily": "GlassWorm",
+      "sha256": "9864b29025e211a1ea57d01d6cf812002a9527d2b0766f0848beae66ccf3f7e7",
+      "source": "research",
+      "sourceUrl": "https://yeethsecurity.com/blog/2026-05-25-Glassworm-Solana",
+      "discoveryDate": "2026-05-25",
+      "capabilities": ["credential-theft", "backdoor"],
+      "localPath": "glassworm/finlay-ab.vscode-latex-runner.vsix",
+      "notes": "Executes in-memory payloads to fetch remote server information on-chain delivering a backdoor."
     }
   ],
   "githubSources": [
