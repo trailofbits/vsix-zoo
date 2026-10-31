@@ -15,6 +15,7 @@ Malware sample collection for [vsix-audit](https://github.com/trailofbits/vsix-a
 | Directory | Description | Capabilities |
 |-----------|-------------|--------------|
 | `apollyon/` | Discord webhook exfil PoC | data-exfiltration, crypto-wallet |
+| `claude-code-cursor/` | Malicious Claude Code entry point from the Cursor Marketplace; full VSIX unavailable | backdoor, persistence, data-exfiltration |
 | `doyensec/` | VS Code security research | workspace trust bypass |
 | `ecm3401/` | Educational attack suite | ssh-theft, docker-tampering, RCE |
 | `glassworm/` | Supply chain malware (Rust implants) | credential-theft, crypto-wallet, VNC |

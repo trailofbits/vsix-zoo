@@ -1,0 +1,2 @@
+# Keep the hash-verified malware sample byte-for-byte intact.
+samples/claude-code-cursor/extension.js -diff
